@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FontsView</string>
+    <string name="input_label">请输入文字：</string>
+    <string name="clear_button">清空</string>
+</resources>
