@@ -2,4 +2,6 @@
     <string name="app_name">FontsView</string>
     <string name="input_label">请输入文字：</string>
     <string name="clear_button">清空</string>
+    <string name="font_select">选择字体</string>
+    <string name="color_select">选择颜色</string>
 </resources>

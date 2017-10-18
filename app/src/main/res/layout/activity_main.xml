@@ -25,6 +25,7 @@
             android:id="@+id/font_view"
             android:textSize="72sp"
             android:scrollbars="vertical"
+            android:textColor="#000"
             android:text="Hello World!"/>
     </LinearLayout>
     <LinearLayout
@@ -47,10 +48,28 @@
             android:id="@+id/text_input"
             />
     </LinearLayout>
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/clear_input"
-        android:text="@string/clear_button"
-        />
+        android:layout_gravity="center_vertical"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clear_input"
+            android:text="@string/clear_button"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_font"
+            android:text="@string/font_select"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_color"
+            android:text="@string/color_select"
+            />
+    </LinearLayout>
 </LinearLayout>
